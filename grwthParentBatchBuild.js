@@ -3,10 +3,12 @@ import 'chromedriver'
 
 let ele;
 const chromeCapabilities = Capabilities.chrome()
-const dir = ''//Fill in Path of Chromedriver
+const dir = 'C:\\Users\\username\\path\\to\\folder\\with\\chromedriver'//Fill in Path of Chromedriver
 const ac = ''//Fill in Account
 const pw = ''//Fill in Password
-const data = [//Fill in List]
+const data = [//Fill in List
+  ['ChiName', 'ParentMobile', 1(Dad)/2(Mum)/3(Other), 1],
+]
 
 chromeCapabilities.set('goog:chromeOptions', {
   args: ['disable-infobars'],
